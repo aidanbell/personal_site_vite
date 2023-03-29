@@ -1,0 +1,29 @@
+.active {
+  color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: left;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 0.5em;
+  flex-grow: 10;
+  font-size: 3em;
+}
+
+.navbar {
+  align-content: flex-start;
+  top: -100px;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.navbar-brand {
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 5em;
+  font-weight: 300;
+}
