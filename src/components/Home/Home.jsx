@@ -5,22 +5,22 @@ export default function Home() {
   return (
     <div id="home" className="home">
       <div id="particles-js">
-        <div class="home-container">
-          <p class="name">/ab/</p>
-          <div class="mobile-nav">
-            <ul class="home-nav">
+        <div className="home-container">
+          <p className="name">/ab/</p>
+          <div className="mobile-nav">
+            <ul className="home-nav">
               <li>
-                <a class="mobile-nav-link" href="#About">
+                <a className="mobile-nav-link" href="#About">
                   <span>About Me</span>
                 </a>
               </li>
               <li>
-                <a class="mobile-nav-link" href="#Projects">
+                <a className="mobile-nav-link" href="#Projects">
                   <span>Projects</span>
                 </a>
               </li>
               <li>
-                <a class="mobile-nav-link" href="#Contact">
+                <a className="mobile-nav-link" href="#Contact">
                   <span>Contact</span>
                 </a>
               </li>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
         <i
-          class="material-icons"
+          className="material-icons"
           id="down"
           style={{ fontSize: "10vmin", cursor: "pointer" }}
           onClick={() => {
