@@ -1,0 +1,110 @@
+.p-card {
+  width: 60%;
+  padding: 1em;
+  margin: 2em;
+  background-color: #a5a9b0;
+  height: fit-content;
+  display: grid;
+  grid-template-areas: 
+    'img name'
+    'img desc'
+    'img tech'
+    'img links';
+  flex-direction: row;
+  grid-auto-rows: auto;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.p-card-img {
+  grid-area: img;
+  width: 400px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.p-card-title {
+  grid-area: name;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0.5em;
+}
+
+.p-card-desc {
+  grid-area: desc;
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+.p-card-tech {
+  grid-area: tech;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.tech-icon {
+  height: 2em;
+  width: auto;
+}
+
+.p-card-links {
+  grid-area: links;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.link {
+  font-size: 4em !important;
+  text-decoration: none;
+}
+
+#launch-icon {
+  margin-top: 0.1em;
+}
+
+#launch-icon i {
+  font-size: 1em;
+}
+
+#github-icon {
+  font-size: 0.9em;
+}
+
+/* media breakpoint for 1200px */
+@media only screen and (max-width: 1200px) {
+  .p-card {
+    grid-template-areas:
+    'name name'
+    'img desc'
+    'img desc'
+    'tech links'
+  }
+
+  .p-card-img {
+    width: 100%;
+  }
+}
+
+/* media screen breakpoint for mobile/tablet */
+@media only screen and (max-width: 768px) {
+  .p-card {
+    width: 80%;
+    grid-template-areas:
+    'name'
+    'img'
+    'desc'
+    'tech'
+    'links'
+  }
+
+  .p-card-img {
+    width: 100%;
+  }
+}
