@@ -1,4 +1,5 @@
 import mePic from '../../assets/me.jpeg';
+import resumeIcon from '../../assets/icons8-resume-60.png';
 import './About.css';
 
 
@@ -27,6 +28,15 @@ export default function About() {
               className="icon">
               <i className="devicon-github-original"></i>
             </a>
+          <a
+            href="../../assets/AidanBellResume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className='icon'>
+            <div id="resume-icon">
+            
+            </div>
+          </a>
           </div>
         </div>
         <div className="blurb">

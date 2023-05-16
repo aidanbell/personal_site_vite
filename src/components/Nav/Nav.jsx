@@ -22,11 +22,6 @@ export default function Nav() {
             <span>Projects</span>
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
       </ul>
     </nav>
   );

@@ -46,10 +46,36 @@
 }
 
 .icon {
+  display: flex;
   font-size: 5em;
-  margin: 0.5em;
+  margin: 0.2em;
   text-decoration: none;
   color: white;
+}
+
+#resume-icon {
+  background-image: url('../../assets/icons8-resume-60.png');
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+}
+
+.icon:hover {
+  color: #c8dbfd;
+}
+
+#resume-icon:hover {
+  background-image: url('../../assets/icons8-resume-60-hover.png');
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 @keyframes waving {

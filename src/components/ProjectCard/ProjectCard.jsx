@@ -19,7 +19,7 @@ export default function ProjectCard({ project }) {
       <div className="p-card-links">
         <a
           className="link"
-          href="{project.github}"
+          href={project.github}
           target="_blank"
           rel="noreferrer">
           <i id="github-icon" className="devicon-github-original"></i>
@@ -27,7 +27,7 @@ export default function ProjectCard({ project }) {
         <a
           className="link"
           id="launch-icon"
-          href="{project.live}"
+          href={project.live}
           target="_blank"
           rel="noreferrer">
           <i className="material-icons">launch</i>
