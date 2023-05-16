@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
           href={project.github}
           target="_blank"
           rel="noreferrer">
-          <i id="github-icon" className="devicon-github-original"></i>
+          <i id="github-icon" className="devicon-github-original p-icon"></i>
         </a>
         <a
           className="link"
@@ -30,7 +30,7 @@ export default function ProjectCard({ project }) {
           href={project.live}
           target="_blank"
           rel="noreferrer">
-          <i className="material-icons">launch</i>
+          <i className="material-icons p-icon">launch</i>
         </a>
       </div>
     </div>

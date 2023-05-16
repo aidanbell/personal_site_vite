@@ -65,8 +65,17 @@
   text-decoration: none;
 }
 
+.p-icon {
+  color: rgba(33, 37, 41, 1);
+  height: min-content
+}
+
+.p-icon:hover {
+  color: rgba(33, 37, 41, 0.5);
+}
+
 #launch-icon {
-  margin-top: 0.1em;
+  margin-top: 0.2em;
 }
 
 #launch-icon i {
