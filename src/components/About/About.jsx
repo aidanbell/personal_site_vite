@@ -15,7 +15,7 @@ export default function About() {
 
           <div className="links">
             <a
-              href="https://www.linkedin.com/in/aidan-bell/"
+              href="https://www.linkedin.com/in/aidanbell0/"
               target="_blank"
               rel="noreferrer"
               className="icon">
