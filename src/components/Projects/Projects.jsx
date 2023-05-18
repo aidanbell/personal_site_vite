@@ -59,6 +59,65 @@ export default function Projects() {
       {projects.map((project) => (
         <ProjectCard project={project} key={project.name} />
       ))}
+      <div id="lessons" className="lessons">
+        <h2>Lessons/Guides:</h2>
+        <ul>
+          <li>
+            👨‍🏫
+            <a
+              href="https://github.com/aidanbell/uploading-images-with-imgur-API/blob/master/uploading-with-imgur.md"
+              target="_blank"
+              rel="noreferrer">
+              Uploading Images with Imgur API
+            </a>
+          </li>
+          <li>
+            👨‍🏫
+            <a
+              href="https://github.com/aidanbell/django-comsuming-api-and-webscraping/blob/main/django-consuming-apis-and-webscraping.md"
+              target="_blank"
+              rel="noreferrer">
+              Consuming APIs and Webscraping w/Python & Django
+            </a>
+          </li>
+          <li>
+            👨‍🏫
+            <a
+              href="https://github.com/aidanbell/cloud-postgres-with-bit.io/blob/main/cloud-postgres-with-bitio.md"
+              target="_blank"
+              rel="noreferrer">
+              Cloud Postgres with bit.io
+            </a>
+          </li>
+          <li>
+            👨‍🏫
+            <a
+              href="https://github.com/aidanbell/CSS-Animations-Keyframes"
+              target="_blank"
+              rel="noreferrer">
+              CSS Animations & Keyframes
+            </a>
+          </li>
+          <li>
+            👨‍🏫
+            <a
+              href="https://github.com/aidanbell/cli_hunt"
+              target="_blank"
+              rel="noreferrer">
+              CLI Hunt - Command Line Scavenger Hunt
+            </a>
+          </li>
+          <li>
+            📋
+            <a
+              href="https://github.com/aidanbell/WSL_InstallFest/blob/master/WSL_InstallFest.md"
+              target="_blank"
+              rel="noreferrer">
+              Windows Subsystem for Linux (WSL) InstallFest
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
