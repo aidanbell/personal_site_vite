@@ -1,6 +1,7 @@
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css';
 import cagePage2 from '../../assets/cage-page2.png';
+import md98 from '../../assets/md98.png';
 
 const projects = [
   {
@@ -29,7 +30,27 @@ const projects = [
     github: "https://github.com/aidanbell/cage-page",
     live: "https://the-cage-page.herokuapp.com/",
   },
-
+  {
+    name: "Markdowner98",
+    description: `A Mintbean Hackathon winner 🏆🎉🙌! A Markdown editor with live preview, simultaneous scrolling, and the ability to download your markdown as a .pdf file.`,
+    img: md98,
+    tech: [
+      {
+        name: "Node.js",
+        icon: "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+      },
+      {
+        name: "React",
+        icon: "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+      },
+      {
+        name: "Markdown",
+        icon: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white",
+      },
+    ],
+    github: "https://github.com/aidanbell/Markdowner98",
+    live: "https://aidanbell.github.io/Markdowner98/",
+  },
 ];
 
 export default function Projects() {
