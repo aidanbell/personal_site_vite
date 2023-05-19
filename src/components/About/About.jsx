@@ -46,11 +46,11 @@ export default function About() {
             spent the last few years teaching web development at General
             Assembly, and I am always looking to learn more about the latest
             technologies.
-            <br />
+            <hr/>
             I enjoy hunting for bugs, chasing obscure errors, and finding myself
             so deep into the docs that I'm learning something completely new
             along the way
-            <br />
+            <hr />
             Have a look at my projects, and feel free to reach out if you'd like
             to chat!
           </p>
