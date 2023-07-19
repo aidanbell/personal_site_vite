@@ -28,7 +28,7 @@ const projects = [
       },
     ],
     github: "https://github.com/aidanbell/cage-page",
-    live: "https://the-cage-page.herokuapp.com/",
+    live: "https://www.thecage.page/",
   },
   {
     name: "Markdowner98",
