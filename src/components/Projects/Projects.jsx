@@ -2,6 +2,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import './Projects.css';
 import cagePage2 from '../../assets/cage-page2.png';
 import md98 from '../../assets/md98.png';
+import cagepageapi from '../../assets/cagepageapi.png';
 
 const projects = [
   {
@@ -29,6 +30,32 @@ const projects = [
     ],
     github: "https://github.com/aidanbell/cage-page",
     live: "https://www.thecage.page/",
+  },
+  {
+    name: "Cage-Page-API",
+    description:
+      "A RESTful API built with Node.js, Express, and MongoDB. Currently in the process of breaking apart the Cage Page app into a separate front-end and back-end. The API authenticates requests with JWTs, however there are some routes that are open to the public.",
+    img: cagepageapi,
+    tech: [
+      {
+        name: "Node.js",
+        icon: "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+      },
+      {
+        name: "JSON Web Tokens",
+        icon: "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white",
+      },
+      {
+        name: "Heroku",
+        icon: "https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white",
+      },
+    ],
+    github: "https://github.com/aidanbell/cage-page-backend",
+    live: "https://cage-page-api-3dcac7f71e3d.herokuapp.com/",
   },
   {
     name: "Markdowner98",
