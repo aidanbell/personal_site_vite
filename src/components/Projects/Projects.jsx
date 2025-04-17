@@ -55,7 +55,6 @@ const projects = [
       },
     ],
     github: "https://github.com/aidanbell/cage-page-backend",
-    live: "https://cage-page-api-3dcac7f71e3d.herokuapp.com/",
   },
   {
     name: "Markdowner98",
@@ -76,7 +75,6 @@ const projects = [
       },
     ],
     github: "https://github.com/aidanbell/Markdowner98",
-    live: "https://aidanbell.github.io/Markdowner98/",
   },
 ];
 

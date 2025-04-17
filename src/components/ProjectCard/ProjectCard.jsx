@@ -30,16 +30,18 @@ export default function ProjectCard({ project }) {
           rel="noreferrer">
           <i id="github-icon" className="devicon-github-original p-icon"></i>
         </a>
-        <a
-          className="link"
-          id="launch-icon"
-          href={project.live}
-          onMouseEnter={() => setHover('See the Live Site')}
-          onMouseLeave={() => setHover(false)}
+        {project.live && (
+          <a
+            className="link"
+            id="launch-icon"
+            href={project.live}
+            onMouseEnter={() => setHover('See the Live Site')}
+            onMouseLeave={() => setHover(false)}
           target="_blank"
           rel="noreferrer">
-          <i className="material-icons p-icon">launch</i>
-        </a>
+            <i className="material-icons p-icon">launch</i>
+          </a>
+        )}
       </div>
     </div>
   );
