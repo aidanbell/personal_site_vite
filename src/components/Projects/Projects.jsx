@@ -29,7 +29,6 @@ const projects = [
       },
     ],
     github: "https://github.com/aidanbell/cage-page",
-    live: "https://www.thecage.page/",
   },
   {
     name: "Cage-Page-API",
@@ -74,6 +73,7 @@ const projects = [
         icon: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white",
       },
     ],
+    live: "https://aidanbell.github.io/Markdowner98/",
     github: "https://github.com/aidanbell/Markdowner98",
   },
 ];
